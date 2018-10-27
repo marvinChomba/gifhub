@@ -1,0 +1,19 @@
+img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  float: left;
+  margin-bottom: 15px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  
+}
+.col-3 {
+  display: flex;
+  flex-direction: row;
+}
+#loadMore {
+  margin: 10px auto;
+}

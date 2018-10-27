@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000;
+  width: 100%;
+  padding-left: 30px;
+  min-height: 700px;
+  text-align: center
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Monofett;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 75px;
+}
+.contain {
+  margin-left: 30px;
+}
+h3 {
+  color: white;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  margin-left: 0;
+}
+.link {
+  border: 2px solid white;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.link:hover {
+  background: white;
+  color: black;
+}
+.routerLink {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.active {
+  background: white;
+  color: black;
+}

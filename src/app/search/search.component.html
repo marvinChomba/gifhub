@@ -1,0 +1,12 @@
+<form class="form-inline mb-5">
+  <div class="form-group">
+    <input type="text" class="form-control" autocomplete="off" placeholder="Search a GIF" id="searchBar">
+  </div>
+  <button  class="btn ml-3 btn-primary" (click)="searchIt()" id="search">Search</button>
+</form>
+<div class="row">
+  <div *ngFor="let gif of gifs" class="col-lg-3 col-md-4 col-sm-6">
+    <img src={{gif.url}}>
+  </div>
+  <!-- <button class="btn btn-lg btn-primary" id="loadMore" (click)="loadMore()">Show More</button> -->
+</div>

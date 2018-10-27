@@ -1,0 +1,7 @@
+<div class="row">
+  <div *ngFor="let gif of gifs" class="col-lg-3 col-md-4 col-sm-6">
+    <img src={{gif.url}}>
+  </div>
+  <button class="btn btn-lg btn-primary" id="loadMore" (click)="loadMore()">Show More</button>
+</div>
+
